@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: rgb(221, 15, 135);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    background-color: black;
+    width: 90vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 300px;
+    height: 550px;
+    background-color: rgb(238, 5, 187);
+    border-radius: 15px;
+    border: solid rgb(255, 255, 255);
+    border-width: 5px;
+}
+
+#myInp{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid black;
+    text-align: right;
+    padding-right: 10px;
+    font-family: "Orbitron", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+button{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border: solid black;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(141, 132, 119, 0.795);
+}
+
+button:active{
+    opacity: 70%;
+}
+
+#number{
+    grid-template-columns: 50px 50px 50px;
+    column-gap: 30px;
+    display:flex;
+    height: 100px;
+    display: inline-grid;
+    padding: 30px;
+    margin-left: 5px;
+}
+
+#conjunto{
+    margin-left: 18px;
+    padding-top: 1px;
+}
+
+.simb{
+    display: inline-flex;
+    margin-left: 2px;
+    background-color: rgba(255, 217, 0, 0.726);
+    
+}

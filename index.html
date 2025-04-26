@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Dev Bruno</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<h1>Calculadora da Gaby</h1>
+
+    <div class="container">
+        <div class="inp">
+            <input type="text" id="myInp" placeholder="digite um valor" disabled>
+        </div>
+
+        <section id="conjunto">
+            <button onclick="add()" class="simb">+</button>
+            <button onclick="sub()" class="simb">-</button>
+            <button onclick="div()" class="simb">/</button>
+            <button onclick="mult()" class="simb">x</button>
+            <button onclick="del()" class="simb">←</button>
+        </section>
+
+        <section id="number">
+            <button onclick="add9()">9</button>
+            <button onclick="add8()">8</button>
+            <button onclick="add7()">7</button>
+
+
+
+            <button onclick="add6()">6</button>
+            <button onclick="add5()">5</button>
+            <button onclick="add4()">4</button>
+
+
+            <button onclick="add3()">3</button>
+            <button onclick="add2()">2</button>
+            <button onclick="add1()">1</button>
+
+
+            <button onclick="reset()" class="simb">c</button>
+            <button onclick="add0()">0</button>
+            <button onclick="result()">=</button>
+        </section>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
